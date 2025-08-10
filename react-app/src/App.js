@@ -225,11 +225,11 @@ function Home({ isAuthorized, user }) {
 
 // Enhanced internal dashboard page
 function Dashboard({ user }) {
-  const [dashboardData, setDashboardData] = useState({
+  const dashboardData = {
     totalUsers: 245,
     activeProjects: 12,
     monthlyRevenue: "$125,000"
-  });
+  };
 
   return (
     <div
